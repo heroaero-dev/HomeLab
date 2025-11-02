@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: linkding25
-          image: sissbruecker/latest
+          image: sissbruecker/linkding:latest
           ports:
             - containerPort: 9090
