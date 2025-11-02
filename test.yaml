@@ -1,0 +1,17 @@
+LD_DB_USER: aero
+LD_DB_PASSWORD: aero
+sops:
+    age:
+        - recipient: age1y6h6gh3memsng0n3465xunvrzd0des7fkkkjycsf7y8leqg5dspssa63fd
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBKbktCenpaTlBjYi8vNE4y
+            bnk0UGs1eG1rVVJvRUpLNWt3bzRablNNZkFnCkFweUNnU0FlbVhNekV2NThOY21y
+            dkVVNllnUmlGVUExT011K2RVYUU3UFUKLS0tIHBoaTdxL1VPaS9KUHJFMmFGTUEx
+            b0F4M0JtNi9nVVBJbTdkVjU2cG5pL2MKyjfza72sxTMEAn5lE9YsKoNfhlRjDz5Z
+            bMDOf9u551F8kkznZFXDrFHwZGSSI1M4imbA+K2XE0BIqRskFbJ9yg==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2025-11-02T05:00:50Z"
+    mac: ENC[AES256_GCM,data:obZLZ8XCx/TPwnGdzpe/TgN9ii2QhZ4/RZ5ZZixlLr9jgo3R0Ar+ctCJZwLndhlh8bFN3b5SZ8N+9q6KxiDOyPeNQxnyV/wGWNen9I/CVNpwiCedpIRHHHs+KZLaFW9tULexz/6lFRu4vhqUqxfcvWaXJiVGDKmW8zJHxLO75Fo=,iv:YZrALNWeA/Cd25zXyuOVai+tpPvH+TtuasAIF8szCio=,tag:j2ll2RuOPqTu2ULktjGPLQ==,type:str]
+    encrypted_regex: ^(data|stringData)$
+    version: 3.10.2
