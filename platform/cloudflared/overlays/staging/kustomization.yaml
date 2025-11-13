@@ -3,4 +3,4 @@ kind: Kustomization
 metadata:
 resources:
   - secret.yaml
-  - ../../base/cloudflared
+  - ../../base
