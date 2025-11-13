@@ -4,10 +4,17 @@ metadata:
   name: external-secrets
   namespace: flux-system
 spec:
-  interval: 10m
-  path: ./platform/external-secrets/overlays/staging
-  prune: true
+  interval: 30m0s
+  # dependsOn:
+  # - name: infra-configs
+  retryInterval: 1m 
+  timeout: 5m 
   sourceRef:
     kind: GitRepository
-    name: kube-homelab
-  targetNamespace: external-secrets
+    name: flux-system 
+  path: ./platform/external-secrets/overlays/staging
+  prune: true
+  decryption:
+    provider: sops
+    secretRef:
+      name: sops-age

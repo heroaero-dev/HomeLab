@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
   - linkding.yaml
   - plex.yaml
+  - platform.yaml
   - infrastructure.yaml
   - monitoring.yaml
   - secrets.yaml
