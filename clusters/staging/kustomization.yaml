@@ -6,4 +6,3 @@ resources:
   - platform.yaml
   - infrastructure.yaml
   - monitoring.yaml
-  - secrets.yaml
