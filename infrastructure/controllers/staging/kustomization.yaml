@@ -3,5 +3,4 @@ kind: Kustomization
 resources:
   - renovate
   - stakater-reloader
-  - cert-manager
   - ci-access
